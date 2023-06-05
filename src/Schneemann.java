@@ -5,6 +5,7 @@ public class Schneemann{
     private GLKegelstumpf nase;
     private GLZylinder krempe,zylinder;
 
+
     public Schneemann(double pX, double pZ){       
         beine  = new GLKugel (pX, 25,pZ,  75,"src/img/Schnee.jpg");
         bauch  = new GLKugel (pX,130,pZ,  55,"src/img/Schnee.jpg");
